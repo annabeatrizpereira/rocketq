@@ -154,3 +154,26 @@
 .question-wrapper.read .question-content .user {
     background: var(--grey-blue);
 }
+
+/* No Questions */
+.no-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5.2rem;
+    gap: 1.2rem;
+}
+
+.no-questions > h2 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: var(--black);
+}
+
+.no-questions > p {
+    font-size: 1.4rem;
+    color: var(--grey-dark);
+    line-height: 1.9rem;
+}
